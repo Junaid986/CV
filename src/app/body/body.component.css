@@ -1,0 +1,36 @@
+:host {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#photo,
+#photo img {
+    border-radius: 50%;
+    background: url(https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAM1AAAAJGY0NDE1YmUxLTBiMzgtNDk4OC1iNDYzLWYwZTU4MjVjMjBhOA.jpg);
+}
+
+#photo-header {
+    margin-top: 20px
+}
+
+#photo {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    padding: 5px;
+    background: #ededed;
+    display: inline-block
+}
+
+#photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover
+}
+
+#text-header h1 span {
+    color: #f0563d
+}
